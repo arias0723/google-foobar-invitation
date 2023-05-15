@@ -2,6 +2,9 @@
 
 Some (interesting) problems of the invitation I received from Google selection program Foobar.
 
+Final decrypted message:
+{'success' : 'great', 'colleague' : 'esteemed', 'efforts' : 'incredible', 'achievement' : 'unlocked', 'rabbits' : 'safe', 'foo' : 'win!'}
+
 
 # Problem 1: Bringing a Gun to a Trainer Fight
 
@@ -37,3 +40,18 @@ Output: [0, 1]
 
 Input: ({{0, 2, 2, 2, -1}, {9, 0, 2, 2, -1}, {9, 3, 0, 2, -1}, {9, 3, 2, 0, -1}, {9, 3, 2, 2, 0}}, 1)
 Output: [1, 2] 
+
+# Solution:
+
+# Problem 3: Disorderly Escape
+
+Write a function solution(w, h, s) that takes 3 integers and returns the number of unique, non-equivalent configurations that can be found on a star grid w blocks wide and h blocks tall where each celestial body has s possible states. Equivalency is defined as above: any two star grids with each celestial body in the same state where the actual order of the rows and columns do not matter (and can thus be freely swapped around). Star grid standardization means that the width and height of the grid will always be between 1 and 12, inclusive. And while there are a variety of celestial bodies in each grid, the number of states of those bodies is between 2 and 20, inclusive. The solution can be over 20 digits long, so return it as a decimal string. The intermediate values can also be large, so you will likely need to use at least 64-bit integers.
+
+-- Test cases --
+Input: (2, 2, 2)
+Output: 7
+
+Input: (2, 3, 4)
+Output: 430
+
+# Solution:

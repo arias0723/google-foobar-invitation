@@ -107,7 +107,7 @@ public class Problem2 {
     }
 
     public static void main(String[] args) {
-        int[] s = Solution.solution(new int[][]{{0, 1, 1, 1, 1}, {1, 0, 1, 1, 1}, {1, 1, 0, 1, 1}, {1, 1, 1, 0, 1}, {1, 1, 1, 1, 0}}, 3);
+        int[] s = Problem2.solution(new int[][]{{0, 1, 1, 1, 1}, {1, 0, 1, 1, 1}, {1, 1, 0, 1, 1}, {1, 1, 1, 0, 1}, {1, 1, 1, 1, 0}}, 3);
         for(int i : s) {
             System.out.print(i + " ");
         }
